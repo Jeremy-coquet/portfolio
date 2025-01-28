@@ -1,0 +1,23 @@
+html {
+	scroll-behavior: smooth;
+  }
+
+body {
+	/* background-color: #040238; */
+	background-color: #02011f;
+	/* background-color: #060606; */
+	color: white;
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+h2 {
+	font-size: 3rem;
+}
+
+p {
+	font-size: 20px;
+	line-height: 1.6;
+}
