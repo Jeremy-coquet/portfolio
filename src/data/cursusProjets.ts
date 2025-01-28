@@ -2,6 +2,8 @@ import fractol from "../assets/imgs/fractol02.jpeg";
 import cpp from "../assets/imgs/cpp01.jpg";
 import pushSwap from "../assets/imgs/push_swap.jpg";
 import minishell from "../assets/imgs/minishell.png";
+import IRC from "../assets/imgs/IRC.webp";
+import pong from "../assets/imgs/pong.png";
 import { CursusProjectsType } from "../types/cursusProjects";
 
 
@@ -44,11 +46,27 @@ export const cursusProjetsData :CursusProjectsType[] = [
 		image: minishell.src,
 	},
 
-	//TODO: complete to another project
+	{
+		title: "IRC",
+		description: "Projet de groupe portant sur la création d\'un serveur IRC",
+		skills: ["C++", "socket"],
+		image: IRC.src,
+	},
+
+	{
+		title: "Transcendance",
+		description: "Projet de groupe représentant l'esprit du jeu pong, avec un backend django\
+		pour la gestion de profil ",
+		skills: ["python", "django", "API REST", "postgreSQL", "docker"],
+		image: pong.src,
+	},
+
+
+	// TODO: complete to another project
 	// {
-	// 	title: '',
-	// 	description: '',
-	// 	skill: '',
-	// 	image: '',
+	// 	title: "",
+	// 	description: "",
+	// 	skills: "",
+	// 	image: "",
 	// },
 ];
