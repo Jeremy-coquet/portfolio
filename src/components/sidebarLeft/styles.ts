@@ -10,7 +10,7 @@ export const styles = {
 	nav: {
 		display: 'flex',
 		flexDirection: 'row-reverse',
-		left: '-13.5rem',
+		left: '-11.5rem',
 		position: 'fixed',
 		top: '25%',
 		transform: 'rotate(-90deg) translate3d(-30%, 0, 0)',
