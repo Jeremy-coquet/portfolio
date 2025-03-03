@@ -21,7 +21,7 @@ export const sidebarRightData = [
 	},
 
 	{
-		href: "https://gitlab.com/",
+		href: "https://github.com/Jeremy-coquet",
 		target: "_blank",
 		rel: "noopener noreferrer",
 		icone: gitlab,

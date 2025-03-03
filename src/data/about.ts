@@ -12,8 +12,10 @@ import nextJs from "@/assets/imgs/logos/nextJs.png";
 import virtualbox from "@/assets/imgs/logos/virtualbox.png";
 import typeScript from "@/assets/imgs/logos/typeScript.png";
 import CSS3 from "@/assets/imgs/logos/css3.png"
-
- 
+import django from "@/assets/imgs/logos/django.png"
+import pandas from "@/assets/imgs/logos/pandas.png"
+import python from "@/assets/imgs/logos/python.png"
+import numpy from "@/assets/imgs/logos/numpy.png"
 export const aboutData = {
 	about : {
 		image: profil.src,
@@ -92,6 +94,26 @@ export const aboutData = {
 		{
 			title: "CSS3",
 			logo: CSS3.src,
+		},
+
+		{
+			title: "django",
+			logo: django.src,
+		},
+
+		{
+			title: "pandas",
+			logo: pandas.src,
+		},
+
+		{
+			title: "python",
+			logo: python.src,
+		},
+
+		{
+			title: "numpy",
+			logo: numpy.src,
 		},
 
 		// {
