@@ -17,6 +17,11 @@ export const sidebarLeftData = [
 	},
 
 	{
+		href: "#specialisationsProjects" ,
+		description: "specialisationsProjects",
+	},
+
+	{
 		href: "#cursusProjects" , 
 		description: "CursusProjects",
 	},

@@ -47,6 +47,8 @@ export const styles : StyleType = {
 		display: "flex",
 		justifyContent: 'space-around',
 		marginTop: 50,
+		marginLeft: 100,
+		marginRight: 100,
 	},
 
 

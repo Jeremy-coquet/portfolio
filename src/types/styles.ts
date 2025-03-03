@@ -46,5 +46,7 @@ export interface StyleType {
 		display?: string;
 		justifyContent?: string;
 		marginTop: number;
+		marginLeft: number;
+		marginRight: number;
 	}
 }

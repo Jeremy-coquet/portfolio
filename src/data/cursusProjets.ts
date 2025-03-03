@@ -9,11 +9,18 @@ import { CursusProjectsType } from "../types/cursusProjects";
 
 export const cursusProjetsData :CursusProjectsType[] = [
 	{
-		title: 'Fractol',
-		description: 'Projet graphique qui allie mathématiques et programmation \
-						pour générer des motifs complexes.',
-		skills: ['C', 'minilibx' ,'maths'],
-		image: fractol.src,
+		title: "Transcendance",
+		description: "Projet de groupe représentant l'esprit du jeu pong, avec un backend django\
+		pour la gestion de profil ",
+		skills: ["python", "django", "API REST", "postgreSQL", "docker"],
+		image: pong.src,
+	},
+
+	{
+		title: "IRC",
+		description: "Projet de groupe portant sur la création d\'un serveur IRC",
+		skills: ["C++", "socket"],
+		image: IRC.src,
 	},
 
 	{
@@ -23,6 +30,14 @@ export const cursusProjetsData :CursusProjectsType[] = [
 						de templates et de casts...",
 		skills: ['c++', 'Programmation orientée objet'],
 		image: cpp.src,
+	},
+
+	{
+		title: 'Fractol',
+		description: 'Projet graphique qui allie mathématiques et programmation \
+						pour générer des motifs complexes.',
+		skills: ['C', 'minilibx' ,'maths'],
+		image: fractol.src,
 	},
 
 	{
@@ -44,21 +59,6 @@ export const cursusProjetsData :CursusProjectsType[] = [
 						les variables d'environnements",
 		skills: ["C", "Bash", "Git/ Travail d'équipe"],
 		image: minishell.src,
-	},
-
-	{
-		title: "IRC",
-		description: "Projet de groupe portant sur la création d\'un serveur IRC",
-		skills: ["C++", "socket"],
-		image: IRC.src,
-	},
-
-	{
-		title: "Transcendance",
-		description: "Projet de groupe représentant l'esprit du jeu pong, avec un backend django\
-		pour la gestion de profil ",
-		skills: ["python", "django", "API REST", "postgreSQL", "docker"],
-		image: pong.src,
 	},
 
 

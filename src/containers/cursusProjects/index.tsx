@@ -1,9 +1,7 @@
-import CursusProjects from "../../components/cursusProjects";
 import { cursusProjetsData } from "@/data/cursusProjets";
-import { useEffect, useState } from "react";
 import { CursusProjectsType } from "@/types/cursusProjects";
-
-
+import CursusProjects from "../../components/cursusProjects";
+import { useEffect, useState } from "react";
 
 
 const ProjectCursusContainer = () => {

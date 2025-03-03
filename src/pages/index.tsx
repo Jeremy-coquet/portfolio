@@ -3,6 +3,7 @@ import Layout from "../layouts";
 import AboutContainer from "../containers/about";
 import CursusProjectsContainer from "../containers/cursusProjects";
 import PersonalProjectsContainer from "../containers/personalProjects";
+import SpecialisationsProjectsContainer from "@/containers/specialisationsProject";
 // import Contact from "../components/contact/contact";
 import HomeContainer from "../containers/home";
 
@@ -13,6 +14,7 @@ const Home = () => {
 		<HomeContainer />
 		<AboutContainer />
 		<PersonalProjectsContainer />
+		<SpecialisationsProjectsContainer />
 		<CursusProjectsContainer />
 		{/*<Contact />*/}
 	</Layout>

@@ -1,7 +1,7 @@
-import PersonalProjects from "../../components/personalProjects";
-import { personalProjectsData } from "@/data/personalProjects";
 import { useEffect, useState } from "react";
 import { PersonalProjectsType } from "@/types/personalProjects";
+import PersonalProjects from "../../components/personalProjects";
+import { personalProjectsData } from "@/data/personalProjects";
 
 const PersonalProjectsContainer = () => {
 	const [data, setData] = useState<PersonalProjectsType[]>([]);
