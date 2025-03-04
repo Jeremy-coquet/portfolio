@@ -12,8 +12,8 @@ export const styles : StyleType = {
 		marginLeft: '10rem',
 		marginTop: '6rem',
 		width: '40%',
-		justifyContent: 'center', // Centre l'image horizontalement
-		alignItems: 'center', // Centre l'image verticalement
+		justifyContent: 'center',
+		alignItems: 'center'
 	},
 
 	right: {
@@ -22,7 +22,7 @@ export const styles : StyleType = {
 		marginLeft: '6rem',
 		marginRight: '6rem',
 		marginTop: '6rem',
-		padding: '1rem',
+		padding: '2.5rem',
 		textAlign: 'justify',
 		borderRadius: '40px',
 		boxShadow: '3px 3px 3px rgba(255, 255, 255, 0.1)',
@@ -53,10 +53,10 @@ export const styles : StyleType = {
 
 
 	// sphereContainer: {
-	// 	display: 'flex',       // Active le flexbox
-	// 	justifyContent: 'center', // Centrer horizontalement
-	// 	alignItems: 'center',  // Centrer verticalement
-	// 	// gap: '5px',           // Ajouter un espacement entre les sphères
-	// 	marginTop: '0px',     // Espacement au-dessus des sphères
+	// 	display: 'flex',
+	// 	justifyContent: 'center',
+	// 	alignItems: 'center',
+	// 	// gap: '5px',
+	// 	marginTop: '0px',
 	// },
 }

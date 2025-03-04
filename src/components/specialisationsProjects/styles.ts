@@ -25,9 +25,9 @@ export const styles = {
     imgSide: {
         display: 'flex',
         width: '50%',
-        justifyContent: 'center', // Centre l'image horizontalement
-        alignItems: 'center', // Centre l'image verticalement
-        height: '100%', // Assure que le conteneur prend toute la hauteur disponible
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100%',
     },
 
     textSide: {
@@ -35,7 +35,7 @@ export const styles = {
         width: '50%',
         marginLeft: '2rem',
         marginRight: '2rem',
-        padding: '1rem',
+        padding: '3rem',
         borderRadius: '40px',
         boxShadow: '3px 3px 3px rgba(255, 255, 255, 0.1)',
     },

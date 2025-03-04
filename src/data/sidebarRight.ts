@@ -1,11 +1,12 @@
 import { google } from 'react-icons-kit/icomoon/google';
 import { linkedin } from 'react-icons-kit/icomoon/linkedin';
 import {gitlab} from 'react-icons-kit/feather/gitlab';
+import {github} from 'react-icons-kit/feather/github';
 import logo42  from "../assets/imgs/logos/42Logo.png";
 
 export const sidebarRightData = [
 	{
-		href: "https://www.google.com",
+		href: "https://www.gmail.com",
 		target: "_blank",
 		rel: "noopener noreferrer",
 		icone: google,
@@ -13,7 +14,7 @@ export const sidebarRightData = [
 	},
 
 	{
-		href: "https://www.linkedin.com",
+		href: "https://www.linkedin.com/in/jeremy-coquet",
 		target: "_blank",
 		rel: "noopener noreferrer",
 		icone: linkedin,
@@ -24,7 +25,7 @@ export const sidebarRightData = [
 		href: "https://github.com/Jeremy-coquet",
 		target: "_blank",
 		rel: "noopener noreferrer",
-		icone: gitlab,
+		icone: github,
 		image: null,
 	},
 

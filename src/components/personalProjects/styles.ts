@@ -26,10 +26,10 @@ export const styles = {
 
 	left: {
 		backgroundColor: 'rgba(100, 100, 150, 0.1)',
-		width: '50%',
+		width: '45%',
 		marginLeft: '2rem',
 		marginRight: '6rem',
-		padding: '1rem',
+		padding: '3rem',
 		borderRadius: '40px',
 		boxShadow: '3px 3px 3px rgba(255, 255, 255, 0.1)',
 	},

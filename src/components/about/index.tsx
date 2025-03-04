@@ -2,6 +2,7 @@ import { styles } from "./styles";
 import Section from "../section";
 import { AboutType } from "@/types/about";
 import Image from "next/image";
+import Carousel from "../carousel";
 
 interface AboutProps {
 	data: AboutType;
@@ -22,14 +23,14 @@ const About = ( { data }: AboutProps) => {
 					</a>
 				</div>
 			</div>
-			<div style={styles.languages}>
-				{data.skills.map((skill, indexSkill) => (
-					<Image src={skill.logo} alt={skill.title} width={60} height={60} key={indexSkill} />
-				))}
-			</div>
+			{/*<div style={styles.languages}>*/}
+			{/*	{data.skills.map((skill, indexSkill) => (*/}
+			{/*		<Image src={skill.logo} alt={skill.title} width={60} height={60} key={indexSkill} />*/}
+			{/*	))}*/}
+			{/*</div>*/}
+			<Carousel items={data.skills}/>
 		</ Section>
 	</>;
 }
 
 export default About;
-
