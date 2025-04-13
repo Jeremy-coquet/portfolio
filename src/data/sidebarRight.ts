@@ -1,6 +1,5 @@
 import { google } from 'react-icons-kit/icomoon/google';
 import { linkedin } from 'react-icons-kit/icomoon/linkedin';
-import {gitlab} from 'react-icons-kit/feather/gitlab';
 import {github} from 'react-icons-kit/feather/github';
 import logo42  from "../assets/imgs/logos/42Logo.png";
 

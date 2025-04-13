@@ -10,7 +10,7 @@ interface AboutProps {
 
 const About = ( { data }: AboutProps) => {
 
-	return <>
+	return (
 		<Section id="about">
 			<div style={styles.content}>
 				<div style={styles.left}>
@@ -30,7 +30,7 @@ const About = ( { data }: AboutProps) => {
 			{/*</div>*/}
 			<Carousel items={data.skills}/>
 		</ Section>
-	</>;
+	);
 }
 
 export default About;
