@@ -1,45 +1,48 @@
-import { styles } from "./styles";
 import Section from "../section";
 import { PersonalProjectsType } from "@/types/personalProjects";
 import Image from "next/image";
-
+import {
+	StyledTitle,
+	StyledLeftTitle,
+	StyledProject,
+	StyledRight,
+	StyledLeft
+} from './styled';
 
 interface PersonalProjectsProps {
 	datas: PersonalProjectsType[];
 }
 
 const PersonalProjects = ({ datas }: PersonalProjectsProps) => {
-	return <>
+	return (
 		<Section id="personalProjects">
-			<div style={styles.title}>
-
-				<div style={styles.leftTitle}>
+			<StyledTitle>
+				<StyledLeftTitle>
 					<h1>Mes projets</h1>
-				</div>
-			</div>
+				</StyledLeftTitle>
+			</StyledTitle>
 
-
-		{datas.map((data, index) => (
-			<div style={styles.projet} key={index}>
-				<div style={styles.right}>
-					<Image src={data.image} alt={data.title} width={600} height={350} />
-				</div>
-			
-				<div style={styles.left}>
-					<h3>{ data.title }</h3>
-					<p> { data.description }</p>
-					<ul>
-						{data.skills.map((skill, indexSkill) => (
-						<li key={indexSkill}>
-							{ skill }
-						</li>
-						))}
-					</ul>
-				</div>
-			</div>
-		))}
+			{datas.map((data, index) => (
+				<StyledProject key={index}>
+					<StyledRight>
+						<Image src={data.image} alt={data.title} width={600} height={350} />
+					</StyledRight>
+				
+					<StyledLeft>
+						<h3>{data.title}</h3>
+						<p>{data.description}</p>
+						<ul>
+							{data.skills.map((skill, indexSkill) => (
+								<li key={indexSkill}>
+									{skill}
+								</li>
+							))}
+						</ul>
+					</StyledLeft>
+				</StyledProject>
+			))}
 		</Section>
-	</>;
+	);
 }
 
 export default PersonalProjects;

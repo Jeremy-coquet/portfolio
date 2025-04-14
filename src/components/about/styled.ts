@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+// import { StyleType } from "@/types/styles";
 
 export const StyledContent = styled.div`
 	display: flex;
@@ -41,10 +42,10 @@ export const StyledCvLink = styled.a`
 	font-size: 18px;
 `;
 
-export const StyledLanguages = styled.div`
-	display: flex;
-	justify-content: space-around;
-	margin-top: 50px;
-	margin-left: 100px;
-	margin-right: 100px;
-`; 
+// export const StyledLanguages = styled.div`
+// 	display: flex;
+// 	justify-content: space-around;
+// 	margin-top: 50px;
+// 	margin-left: 100px;
+// 	margin-right: 100px;
+// `; 

@@ -1,4 +1,4 @@
-import { styles } from "./styles";
+import { StyledContent, StyledLeft, StyledRight, StyledCvLink } from "./styled";
 import Section from "../section";
 import { AboutType } from "@/types/about";
 import Image from "next/image";
@@ -12,22 +12,18 @@ const About = ( { data }: AboutProps) => {
 
 	return (
 		<Section id="about">
-			<div style={styles.content}>
-				<div style={styles.left}>
+			<StyledContent>
+				<StyledLeft>
 					<Image src={ data.about.image } alt="profil" width={350} height={350} style={{ borderRadius: '180px' }} />
-				</div>
+				</StyledLeft>
 					
-				<div style={styles.right as any}>
+				<StyledRight>
 					<p>{ data.about.description }</p>
-					<a href="/cv.pdf" download style={styles.href_cv as any}>Telecharge mon CV
-					</a>
-				</div>
-			</div>
-			{/*<div style={styles.languages}>*/}
-			{/*	{data.skills.map((skill, indexSkill) => (*/}
-			{/*		<Image src={skill.logo} alt={skill.title} width={60} height={60} key={indexSkill} />*/}
-			{/*	))}*/}
-			{/*</div>*/}
+					<StyledCvLink href="/cv.pdf" download>Telecharge mon CV
+					</StyledCvLink>
+				</StyledRight>
+			</StyledContent>
+			
 			<Carousel items={data.skills}/>
 		</ Section>
 	);

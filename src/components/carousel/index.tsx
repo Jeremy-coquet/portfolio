@@ -1,13 +1,13 @@
 import React from 'react';
 import {CarouselType} from "@/types/carousel";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import {styles} from "@/components/about/styles"
+import { StyledCarousel } from './styled';
 import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
 
 const Carousel: React.FC<CarouselType> = ({ items }) => {
     return (
-        <div style={styles.languages}>
+        <StyledCarousel>
             <Swiper
                 spaceBetween={20}
                 slidesPerView={8}
@@ -22,7 +22,7 @@ const Carousel: React.FC<CarouselType> = ({ items }) => {
                     </SwiperSlide>
                     ))}
             </Swiper>
-        </div>
+        </StyledCarousel>
     );
 };
 
